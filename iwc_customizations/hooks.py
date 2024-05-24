@@ -7,7 +7,12 @@ app_license = "mit"
 # required_apps = []
 
 # Includes in <head>
-# ------------------
+fixtures = [
+    "Custom Field",
+    "Print Format",
+    "Custom DocPerm",
+    # Add any other DocTypes or records you've customized.
+]# ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/iwc_customizations/css/iwc_customizations.css"
